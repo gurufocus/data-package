@@ -1,0 +1,57 @@
+# FundamentalsIREITNODIRECTIncomeStatement
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**depreciation_depletion_amortization** | **float** | &lt;p&gt;{{DDA}} is a present expense that accounts for the past cost of an asset that is now providing benefits. Depletion and amortization are synonyms for depreciation. Generally: The term depreciation is used when discussing man made tangible assets. The term depletion is used when discussing natural tangible assets. The term amortization is used when discussing intangible assets&lt;/p&gt; | [optional] 
+**ebit** | **float** | In accounting and finance, earnings before interest and taxes (EBIT), is a measure of a firm&#39;s profit that includes all expenses except interest and income tax expenses. It is the difference between operating revenues and operating expenses. | [optional] 
+**ebitda** | **float** | &lt;p&gt;Earnings Before Interest, Taxes, Depreciation, and Amortization ({{EBITDA}}) is what the company earns before it expenses interest, taxes, depreciation and amortization. &lt;br&gt;{{EBITDA}} is calculated as {{EBITDA}} &#x3D; {{Revenue}} - {{COGS}} - {{SGA}} - {{RD}} &#x3D; {{Gross_Profit}} - {{SGA}} - {{RD}} &lt;br&gt; The use of {{EBITDA}} is an attempt to make the results of different companies more comparable and uniform.&lt;/p&gt; | [optional] 
+**ebitda_margin** | **float** |  | [optional] 
+**eps_basic** | **float** | &lt;p&gt;{{eps_basic}} is a rough measurement of the amount of a company&#39;s profit that can be allocated to one share of its stock. {{eps_basic}} do not factor in the dilutive effects on convertible securities. &lt;br&gt;{{eps_basic}} is calculated as: {{eps_basic}} &#x3D; ({{Net_Income}} - {{IS_preferred_dividends}}) / {{shares_basic}}&lt;/p&gt; | [optional] 
+**eps_diluated** | **float** | &lt;p&gt;{{eps_diluated}} is a rough measurement of the amount of a company&#39;s profit that can be allocated to one share of its stock. {{eps_diluated}} takes into account all of the outstanding dilutive securities that could potentially be exercised (such as stock options and convertible {{Preferred_Stock}}) and shows how such an action would impact {{per_share_eps}}. &lt;br&gt;{{eps_diluated}} is calculated as: {{eps_diluated}} &#x3D; ({{Net_Income}} - {{IS_preferred_dividends}}) / {{Shares_Outstanding}}&lt;/p&gt; | [optional] 
+**interest_income** | **float** | &lt;p&gt;{{InterestIncome}} is the interest earned on cash temporarily held in savings accounts, certificates of deposits, or other investments.&lt;/p&gt; | [optional] 
+**is_fee_revenue_and_other_income** | **float** | &lt;p&gt;{{IS_FeeRevenueAndOtherIncome}} is the income earned by insurance companies other than providing insurances. It includes investing income, fees and interest income.&lt;/p&gt; | [optional] 
+**is_interest_expense** | **float** |  | [optional] 
+**is_net_investment_income** | **float** | &lt;p&gt;{{IS_NetInvestmentIncome}} is the income earned by insurance companies through investments. Insurance companies usually invest the float they received in stocks or bonds to generate additional income before the premium is paid to cover insurance losses.&lt;/p&gt; | [optional] 
+**is_net_policyholder_benefits_and_claims** | **float** | &lt;p&gt;{{IS_NetPolicyholderBenefitsAndClaims}} is the fund paid out by insurances companies to cover the insurance losses, liabilities and expenses&lt;/p&gt; | [optional] 
+**is_other_expense_insurance** | **float** |  | [optional] 
+**is_policy_acquisition_expense** | **float** | &lt;p&gt;{{IS_PolicyAcquisitionExpense}} is the expenses incurred by insurance companies in activities such as marketing, advertising, commissions etc.&lt;/p&gt; | [optional] 
+**is_preferred_dividends** | **float** | &lt;p&gt;{{IS_preferred_dividends}} is a dividend that is accrued and paid on a company&#39;s preferred shares. In the event that a company is unable to pay all dividends, claims to {{IS_preferred_dividends}} take precedence over claims to dividends that are paid on common shares.&lt;/p&gt; | [optional] 
+**is_total_premiums_earned** | **float** | &lt;p&gt;{{IS_TotalPremiumsEarned}} is the portion of the premium that insurance companies earned by providing insurances for the time period that has already passed.&lt;/p&gt; | [optional] 
+**net_income** | **float** | &lt;p&gt;{{Net_Income}} is the net profit that a company earns after deducting all costs and losses including {{COGS}}, {{SGA}}, {{DDA}}, {{InterestExpense}}, non-recurring items and {{tax}}.  &lt;br&gt;{{Net_Income}}  &#x3D; {{Revenue}} - {{COGS}}, - {{SGA}} - {{RD}}  - {{DDA}} - {{InterestExpense}} + Non-Recurring Items  - {{tax}} &#x3D; Earnings Before Depreciation and Amortization - {{DDA}} - {{InterestExpense}} - Non-Recurring Items (NRI) - {{tax}} &#x3D; {{Operating_Income}} - {{InterestExpense}} - Non-Recurring Items (NRI) - {{tax}} &#x3D; {{Pretax_Income}} - {{tax}}&lt;/p&gt; | [optional] 
+**net_income_continuing_operations** | **float** | &lt;p&gt;{{Net_Income_(Continuing_Operations)}} indicates the net income that a firm brings in from ongoing business activities. These activities are expected to continue into the next reporting period.&lt;/p&gt; | [optional] 
+**net_income_discontinued_operations** | **float** | &lt;p&gt;{{Net_Income_(Discontinued_Operations)}} indicates the net income that a firm brought in from operations that will not be used in future reporting periods.&lt;/p&gt; | [optional] 
+**net_income_including_noncontrolling_interests** | **float** |  | [optional] 
+**net_margin** | **float** | Net margin is calculated as Net Income divided by its Revenue. | [optional] 
+**other_income_minority_interest** | **float** | &lt;p&gt;{{OtherIncomeExpense}} includes {{Minority_interest}}. {{Minority_interest}} is a significant but non-controlling ownership of less than 50% of a company&#39;s voting shares by either an investor or another company.&lt;/p&gt; | [optional] 
+**other_net_income_loss** | **float** |  | [optional] 
+**pretax_income** | **float** | &lt;p&gt;{{Pretax_Income}} is the income that a company earns before paying income taxes. &lt;br&gt;{{Pretax_Income}} is calculated as {{Operating_Income}} + {{Non_Operating_Income}} + {{InterestExpense}} + {{InterestIncome}} + other&lt;/p&gt; | [optional] 
+**revenue** | **float** |  | [optional] 
+**selling_general_admin_expense** | **float** | Selling, General, &amp; Admin. Expense (SGA) includes the direct and indirect costs and all general and administrative expenses of a company. For instance, personnel cost, advertising, rent, communication costs are all part of SGA. | [optional] 
+**shares_outstanding** | **float** | &lt;p&gt;{{Cash_Flow_from_Others}} may include {{ChangeInWorkingCapital}}. These are cash differences caused by the {{ChangeInInventory}}, {{AccountsPayable}}, {{Accts_Rec}} etc. For instance, if a company pays its suppliers slower, its cash position will build up faster. If a company receives payments from its customers slower, its {{Accts_Rec}} will rise, and its cash position will grow more slowly (or even shrink).&lt;/p&gt; | [optional] 
+**tax_provision** | **float** | &lt;p&gt;{{TaxProvision}} is the tax to be paid.&lt;/p&gt; | [optional] 
+**tax_rate** | **float** | &lt;p&gt;{{TaxRate}} is the ratio of {{tax}} divided by {{Pretax_Income}}, usually presented in percent. &lt;br&gt; {{{TaxRate}} &#x3D; {{tax}} / {{Pretax_Income}}&lt;/p&gt; | [optional] 
+**total_expenses_insurance** | **float** |  | [optional] 
+
+## Example
+
+```python
+from openapi_client.models.fundamentals_ireitnodirect_income_statement import FundamentalsIREITNODIRECTIncomeStatement
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of FundamentalsIREITNODIRECTIncomeStatement from a JSON string
+fundamentals_ireitnodirect_income_statement_instance = FundamentalsIREITNODIRECTIncomeStatement.from_json(json)
+# print the JSON string representation of the object
+print(FundamentalsIREITNODIRECTIncomeStatement.to_json())
+
+# convert the object into a dict
+fundamentals_ireitnodirect_income_statement_dict = fundamentals_ireitnodirect_income_statement_instance.to_dict()
+# create an instance of FundamentalsIREITNODIRECTIncomeStatement from a dict
+fundamentals_ireitnodirect_income_statement_from_dict = FundamentalsIREITNODIRECTIncomeStatement.from_dict(fundamentals_ireitnodirect_income_statement_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
