@@ -1,0 +1,4 @@
+github.com/gurufocus/data-package-sdk-go v1.0.0 h1:WRa4G4YOCD74eFsPXCbyBb/e3yi7BTefeE9Cg//exeg=
+github.com/gurufocus/data-package-sdk-go v1.0.0/go.mod h1:z2FOwZzUdVPgrfFX4QrRzH4KILEKQqIdKAiymQ+WiQg=
+gopkg.in/validator.v2 v2.0.1 h1:xF0KWyGWXm/LM2G1TrEjqOu4pa6coO9AlWSf3msVfDY=
+gopkg.in/validator.v2 v2.0.1/go.mod h1:lIUZBlB3Im4s/eYp39Ry/wkR02yOPhZ9IwIRBjuPuG8=
